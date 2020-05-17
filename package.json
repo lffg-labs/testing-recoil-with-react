@@ -1,0 +1,35 @@
+{
+  "name": "@lffg/recoil-intro",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "recoil": "^0.0.7"
+  },
+  "devDependencies": {
+    "eslint": "6.x",
+    "eslint-config-lffg": "^19.0.0"
+  },
+  "eslintConfig": {
+    "extends": "lffg"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
