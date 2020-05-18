@@ -1,5 +1,12 @@
 import React from 'react';
+import { TodoCreator } from './components/todo/creator';
+import { TodoList } from './components/todo/list';
 
 export function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <>
+      <TodoCreator />
+      <TodoList />
+    </>
+  );
 }
