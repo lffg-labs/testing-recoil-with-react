@@ -17,8 +17,8 @@ export function TodoCreator() {
     e.preventDefault();
 
     setName('');
-    setTodoList((todoList) => [
-      ...todoList,
+    setTodoList((prevTodoList) => [
+      ...prevTodoList,
       { id: genTodoId(), done: false, name }
     ]);
   }
